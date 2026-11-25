@@ -187,7 +187,7 @@ jobs:
           - Branch or tag: \`${GITHUB_REF_NAME}\`
           - Workflow run: \`${GITHUB_RUN_NUMBER}\`
           - Runner: \`${RUNNER_OS} ${RUNNER_ARCH}\`
-          - Build tools cache hit: \`${TOOLS_CACHE_HIT:-false}\`
+          - Build tools cache hit: \`${TOOLS_CACHE_HIT:-true}\`
           - Xcode: \`${xcode_version}\`
           - iPhoneOS SDK: \`${sdk_version}\`
           - Generated: \`${generated_at}\`
